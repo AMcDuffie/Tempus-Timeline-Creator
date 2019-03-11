@@ -1,0 +1,193 @@
+hr {
+  border-color: #ffffff;
+  padding: 10px;
+}
+
+#header {
+  text-align: center;
+  background-color: #213857;
+  padding: 10px 0px;
+  border-bottom: solid 2px #ffffff;
+}
+
+#header #logo {
+  max-width: 200px;
+}
+
+.splash {
+  padding: 6em 0;
+  background-image: url("/images/plain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* h1, h2, h3, h4{
+  font-family: 'Raleway', sans-serif;
+} */
+
+.main-btn {
+  background-color:#00BCD4;
+  color: white;
+  font-size: 1.5em;
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.form-inputs {
+      border-radius: 0;
+    border: 0px;
+    border-bottom: solid #00BCD4;
+}
+.list-group-item {
+  line-height: 2.5;
+}
+
+.subheader{
+  background-color: #00BCD4;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.subheading {
+  font-family: 'Righteous', cursive;
+   color: #ffffff
+}
+
+.create-new-timeline{
+  padding-top: 3em;
+}
+
+.create-new-timeline h3{
+  color: white;
+}
+
+.timeline-data {
+  padding-top: 1em;
+}
+
+.input-group {
+  color: white;
+  background-color: none;
+}
+
+.white-text p{
+  color: white;
+  text-transform: uppercase;
+}
+
+/* form cards */
+
+.form-card-container {
+  margin-top: -100px;
+  max-width:60em;
+
+}
+
+#timeline-edit-header{
+  font-family: 'Righteous';
+  font-weight: 500;
+  font-size: 3em;
+  color: #0577a6 
+}
+.mini-header {
+  
+    font-weight: 500;
+    color: #0577a6  
+}
+
+.modal-title  {
+  font-weight: 500;
+    color: #0577a6 
+}
+
+
+.btn-primary {
+  background-color: #0075a7 !important; 
+}
+
+.btn-success {
+  background-color: #009688 !important; 
+}
+
+
+/* Vis Timeline Custom Css */
+
+.vis-container{
+  margin-top: 30px;
+}
+/* 
+.vis-item{
+    border-width: 1px;
+    display: inline-block;
+    z-index: 1;
+} */
+
+.vis-item.red {
+  color: white;
+  background-color: red;
+  border-color: darkred;
+}
+
+.vis-item.green {
+  color: white;
+  background-color: green;
+  border-color: darkgreen;
+}
+
+.vis-item.blue {
+  color: white;
+  background-color: #152f5f;
+  border-color: rgb(39, 19, 94);
+}
+
+.vis-item.yellow {
+  color: black;
+  background-color: #daa925;
+  border-color: rgb(109, 98, 0);
+}
+
+.vis-item.vis-box {
+  border-radius: 0 !important;
+}
+/* .vis-time-axis, .vis-foreground {
+  background-color: #213857
+}
+
+.vis-group {
+  background-color: #00BCD4;
+} */
+
+/* modified Forms */
+
+/* .form-control{
+  width: 70%;
+} */
+
+.custom-select {
+    border: none;
+    border-bottom: #ced4da 1px solid;  
+    border-radius: 0px;
+    font-weight: 300;
+    padding: 0px;
+    font-family: Roboto,sans-serif;
+}
+
+.custom-select:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 0 0 #4285f4;
+    border-bottom: 1px solid #4285f4;
+}
+
+
+.custom-select option{
+  color: #757575;
+}
+
+::placeholder {
+  color: red;
+}
