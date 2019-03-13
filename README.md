@@ -1,6 +1,8 @@
 # Tempus - Online Timeline Creator
-node express group project
+This API is an online timeline creator. It allows the user to input data and apply the data to a timeline. The user can cerate catagories 
+for their timeline that best describs the data within the time line.
 
+* node express group project
 
 ## Built With
 
